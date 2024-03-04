@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+body {
+    background-color: black; /* Set the background color of the body to black */
+    font-family: 'Quintessential', cursive;
+}
+
+.container {
+    text-align: center; /* Center the content horizontally */
+    color: white; /* Set text color to white */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+#map {
+    width: 80%; /* Set the width to 80% of the viewport width */
+    height: 80vh; /* Set the height to 80% of the viewport height */
+    margin: 20px auto; /* Center the map horizontally and add margin top/bottom */
+    background-color: #000; /* Set background color of map to black */
+}
+
+h2 {
+    color: #d9d9d9; /* Set text color of h2 elements to white */
+    text-align: center; /* Center the h2 elements horizontally */
+    margin-bottom: 2px;
+    font-family: 'Quintessential'; font-size: 45px;
+   
+}
+
+h3 {
+    color: white; /* Set text color of title elements to white */
+    text-align: center; /* Center the title elements horizontally */
+    font-family: 'Quintessential'; font-size: 30px;
+}
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    color: black; /* Adjust text color for info box */
+}
+
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
